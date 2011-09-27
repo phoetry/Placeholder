@@ -11,8 +11,8 @@
 ~function($){
 	$.fn.placeholder=function(){
 		return this.each(function(){
+			if('placeholder'in document.createElement(this.tagName))return;
 			var n=1,t=this,txt=t.getAttribute('placeholder');
-			if('placeholder'in document.createElement(t.tagName))return;
 			t.value&&t.value!=txt||(n=0,t.value=txt);
 			$(t).bind({
 				focus:function(){
