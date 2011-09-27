@@ -1,0 +1,20 @@
+Current Version: HTML5 Placeholder jQuery Plugin v1.0
+
+For enabling the html5 attribute 'placeholder' on form elements.
+
+When adding code dynamically, run sth. like this:
+	$node.find('[placeholder]').placeholder();
+
+Or just this:
+	$('[placeholder]').placeholder();
+
+
+History:
+2011.06.27 | Final 1.0
+
+Author: Phoetry
+Blog: http://phoetry.me
+Plugin Page: http://phoetry.me/archives/jquery-placeholder.html
+GitHub Page: https://github.com/phoetry/placeholder
+
+Thank you.
